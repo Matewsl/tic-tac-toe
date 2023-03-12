@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    flex-direction: column;
+}
+
+#gameboard {
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    border: solid 1px black;
+    
+}
+
+#info {
+    display: flex;
+    position: absolute;
+    font-size: 2rem;
+    bottom: 5rem;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: solid 2px black;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    border: 15px solid blue;
+    box-sizing: border-box;
+    color: blue;
+}
+
+.cross {
+    height: 90px;
+    width: 90px;
+    position: relative;
+    transform: rotate(45deg);
+    color: red;
+}
+
+.cross::before, .cross:after {
+    content: "";
+    position: absolute;
+    background-color: red;
+}
+
+.cross::before {
+    left: 50%;
+    width: 30%;
+    margin-left: -15%;
+    height: 100%;
+}
+
+.cross::after {
+    top: 50%;
+    height: 30%;
+    margin-top: -15%;
+    width: 100%;
+}
+
+#restart {
+    position: absolute;
+    bottom: 4rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#baseboard {
+    position: absolute;
+    bottom: 1rem;
+    padding: 0 ;
+    
+
+}
