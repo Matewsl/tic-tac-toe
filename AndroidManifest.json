@@ -43,6 +43,22 @@
         "type": "image/png"
       }
     ],
+    "screenshots" : [
+      {
+        "src": "Home.jpg",
+        "sizes": "1280x720",
+        "type": "image/webp",
+        "platform": "wide",
+        "label": "Homescreen of Awesome App"
+      },
+      {
+        "src": "VelhaGrande.jpg",
+        "sizes": "1280x720",
+        "type": "image/webp",
+        "platform": "wide",
+        "label": "List of Awesome Resources available in Awesome App"
+      }
+    ],
     "related_applications": [
       {
         "platform": "play",
