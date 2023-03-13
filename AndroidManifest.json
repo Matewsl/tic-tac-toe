@@ -6,6 +6,7 @@
     "display": "standalone",
     "background_color": "#fff",
     "description": "O melhor jogo da velha da app store!",
+    "orientation": "portrait-primary",
     "icons": [
       {
         "src": "JogoVelha.png", 
@@ -33,8 +34,13 @@
         "type": "image/png"
       },
       {
+        "src": "JogoVelha.png",
+        "sizes": "any",
+        "type": "image/png"
+      },
+      {
         "src": "VelhaGrande.jpg",
-        "sizes": "192x192",
+        "sizes": "512x512",
         "type": "image/png"
       }
     ],
