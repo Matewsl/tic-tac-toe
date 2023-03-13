@@ -1,0 +1,48 @@
+{
+    "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+    "name": "JogoDaVelha",
+    "short_name": "Velha",
+    "start_url": "https://lighthearted-haupia-09b69f.netlify.app/",
+    "display": "standalone",
+    "background_color": "#fff",
+    "description": "O melhor jogo da velha da app store!",
+    "icons": [
+      {
+        "src": "JogoVelha.png", 
+        "sizes": "48x48",
+        "type": "image/png"
+      },
+      {
+        "src": "JogoVelha.png",
+        "sizes": "72x72",
+        "type": "image/png"
+      },
+      {
+        "src": "JogoVelha.png",
+        "sizes": "96x96",
+        "type": "image/png"
+      },
+      {
+        "src": "JogoVelha.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "JogoVelha.png",
+        "sizes": "168x168",
+        "type": "image/png"
+      },
+      {
+        "src": "JogoVelha.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      }
+    ],
+    "related_applications": [
+      {
+        "platform": "play",
+        "url": "https://play.google.com/store/apps/details?id=tic.tac.toe.two.player.board.games&hl=pt_BR&gl=US"
+      }
+    ]
+  }
+  
